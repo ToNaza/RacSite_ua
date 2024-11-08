@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RacSite</title>
+    <link rel="icon" href="./RacSAva.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <div><h2>RacS</h2>
+    <p>Registration and contract Site</p></div>
+</header>
+<main>
+    <p>
+        Вітаю на невеликому сайті реєстрації в нашу групу, що б приєднатися вам потрібно вписати свої дані та зробити 2 електронних підписа <br><br><br> Умови договору: <br><br> - Ви даєте свої дані на збереженя, у випадку якщо на вас поступає скарка про шахрайство і в ході розслідування буде виявлено що це правда то ваші дані можуть потрапити до кіберполіції. <br><br> - Ми в свою чергу даємо гарантію того що ваші дані не потрапять в інші руки та будуть надійно захищені від посторонніх очей.<br><br> Для чого це потрібно?<br> Ми не шаїраї, та не збираємось працювати порушуючи закон, ми поважаємо своїх клієнтів та після їх оплати, той, кому написав клієнт забов'язнаний виконати свою роботу.<br><br><br> Увага! Ви маєте написати всі данні та поставити підпис, без цього форма не відправиться.<br><br>
+    </p>
+
+    <form id="MyForm" action="#" method="post">
+        <input type="text" id="fullName" name="fullName" placeholder="ПІБ" required>
+        
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        
+        <input type="text" id="telegramUsername" name="telegramUsername" placeholder="Telegram Username" required>
+        
+        <label>
+          <input type="checkbox" id="signature" name="signature" required>
+          Я погоджуюсь з умовами.
+        </label>
+        
+        <button type="button" id="okO" disabled>Відправити</button>
+      </form>
+
+     
+</main>
+<p onclick="location.href='https://forms.gle/tgmksmyWutAXLeA18'" class="p33">Натисни що б відкрити другий документ (є обов'язковим)</p>
+<div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <p style="font-weight: bold;">Операція успішна!</p>
+    </div>
+  </div>
+
+<footer>
+    <p onclick="location.href=''"> Натисни на цей текст що б перейти до сторінки автора сайта.</p>
+</footer>
+</body>
+</html>
